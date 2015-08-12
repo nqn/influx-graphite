@@ -25,6 +25,9 @@ EXPOSE 8086
 # HTTPS API
 EXPOSE 8084
 
+# Graphite port
+EXPOSE 2003
+
 # Raft port (for clustering, don't expose publicly!)
 #EXPOSE 8090
 
